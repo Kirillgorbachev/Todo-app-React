@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0; /* Цвет фона, замените на нужный вам */
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.theList {
+  /* border: 1px solid black; */
+  
+}
+
+.addItemButton {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(231, 243, 246);
+  border: none;
+  cursor: pointer;
+}
+
+.plus {
+  padding-right: 7px;
+  font-size: 20 px;
+}
+
+.addItemButton:hover {
+  color: rgb(0, 135, 180);
+}
+
+.itemsEmptiness {
+ /* margin-top: 160px; */
+ padding-top: 150px;
+ vertical-align: top;
+ border-radius: 30px;
+ background-color: rgb(231, 243, 246);
+ /* border: 1px solid black; */
+}
+
+.loadingMessage {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.greenLeafContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.textMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.newTodoForm {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top:10px;
+  width: 555px;
+  background-color: rgb(146, 214, 236);
+  border-radius: 30px;
+  /* border: 1px solid black; */
+}
+
+.inputField {
+  border-radius: 30px;
+  width: 220px;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 0.5px;
+}
+
+.newTodoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  height: 100vh; /* Высота равная 100% высоты видимой области (viewport) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 50%; /* задаем ширину контейнера */
+  height: 80%;
+  background-color: rgb(92, 195, 230);
+  border-radius: 30px;
+}
+
+.containerHeader {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+.headerText {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  /* padding-bottom: 50px; */
+
+}
+
+.checkbox {
+  margin-right: 145px;
+  margin-left: 15px;
+}
+
+.trashbin {
+  padding-left: 80px;
+}
+
+.todoContainer {
+  width: 80%; /* задаем ширину контейнера */
+  height: 80%;
+  background-color: rgb(231, 243, 246);
+  border-radius: 30px;
+  /* border: 1px solid black; */
+  margin-left: 70px;
+  margin-top: 10px;
+}
